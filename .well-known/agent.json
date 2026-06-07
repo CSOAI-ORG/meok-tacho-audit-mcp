@@ -1,0 +1,113 @@
+{
+  "name": "meok-tacho-audit-mcp",
+  "description": "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July",
+  "url": "https://proofof.ai/scorecard/meok-tacho-audit-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_smart_tacho_2_readiness",
+      "name": "Check Smart Tacho 2 Readiness",
+      "description": "check_smart_tacho_2_readiness via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "analyze_drivers_hours",
+      "name": "Analyze Drivers Hours",
+      "description": "analyze_drivers_hours via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "summarize_infringements",
+      "name": "Summarize Infringements",
+      "description": "summarize_infringements via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_ocrs_band",
+      "name": "Calculate Ocrs Band",
+      "description": "calculate_ocrs_band via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "forecast_ocrs_90_day",
+      "name": "Forecast Ocrs 90 Day",
+      "description": "forecast_ocrs_90_day via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_public_inquiry_brief",
+      "name": "Generate Public Inquiry Brief",
+      "description": "generate_public_inquiry_brief via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_weekly_downloads",
+      "name": "Audit Weekly Downloads",
+      "description": "audit_weekly_downloads via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_dvs_pss_3_star",
+      "name": "Check Dvs Pss 3 Star",
+      "description": "check_dvs_pss_3_star via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_drivers_cpc_expiry",
+      "name": "Check Drivers Cpc Expiry",
+      "description": "check_drivers_cpc_expiry via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_dvsa_visit_pack",
+      "name": "Generate Dvsa Visit Pack",
+      "description": "generate_dvsa_visit_pack via meok-tacho-audit-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

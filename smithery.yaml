@@ -1,0 +1,38 @@
+name: meok-tacho-audit-mcp
+description: 'UK haulage tachograph audit + drivers  hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-tacho-audit-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_smart_tacho_2_readiness
+  description: check smart tacho 2 readiness
+- name: analyze_drivers_hours
+  description: analyze drivers hours
+- name: summarize_infringements
+  description: summarize infringements
+- name: calculate_ocrs_band
+  description: calculate ocrs band
+- name: forecast_ocrs_90_day
+  description: forecast ocrs 90 day
+- name: generate_public_inquiry_brief
+  description: generate public inquiry brief
+- name: audit_weekly_downloads
+  description: audit weekly downloads
+- name: check_dvs_pss_3_star
+  description: check dvs pss 3 star
+- name: check_drivers_cpc_expiry
+  description: check drivers cpc expiry
+- name: generate_dvsa_visit_pack
+  description: generate dvsa visit pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

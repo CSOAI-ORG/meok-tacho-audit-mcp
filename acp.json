@@ -1,0 +1,28 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-tacho-audit-mcp",
+    "description": "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-tacho-audit-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_smart_tacho_2_readiness",
+      "analyze_drivers_hours",
+      "summarize_infringements",
+      "calculate_ocrs_band",
+      "forecast_ocrs_90_day",
+      "generate_public_inquiry_brief",
+      "audit_weekly_downloads",
+      "check_dvs_pss_3_star",
+      "check_drivers_cpc_expiry",
+      "generate_dvsa_visit_pack"
+    ]
+  }
+}

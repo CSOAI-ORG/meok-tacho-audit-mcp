@@ -1,0 +1,43 @@
+{
+  "name": "meok-tacho-audit-mcp",
+  "title": "Meok Tacho Audit Mcp",
+  "description": "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July 2026 cliff), EU 561/2006 retained, infringement triage, Public Inquiry brief generation. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_smart_tacho_2_readiness"
+    },
+    {
+      "name": "analyze_drivers_hours"
+    },
+    {
+      "name": "summarize_infringements"
+    },
+    {
+      "name": "calculate_ocrs_band"
+    },
+    {
+      "name": "forecast_ocrs_90_day"
+    },
+    {
+      "name": "generate_public_inquiry_brief"
+    },
+    {
+      "name": "audit_weekly_downloads"
+    },
+    {
+      "name": "check_dvs_pss_3_star"
+    },
+    {
+      "name": "check_drivers_cpc_expiry"
+    },
+    {
+      "name": "generate_dvsa_visit_pack"
+    }
+  ]
+}
