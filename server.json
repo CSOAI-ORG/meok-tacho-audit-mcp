@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-tacho-audit-mcp",
   "description": "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-tacho-audit-mcp",
     "source": "github"
@@ -10,7 +10,7 @@
   "packages": [
     {
       "identifier": "meok-tacho-audit-mcp",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "transport": {
         "type": "stdio"
       },

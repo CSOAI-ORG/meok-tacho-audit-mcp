@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-tacho-audit-mcp"
-version = "1.0.2"
+version = "1.0.3"
 description = "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July 2026 cliff), EU 561/2006 retained, infringement triage, Public Inquiry brief generation. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
