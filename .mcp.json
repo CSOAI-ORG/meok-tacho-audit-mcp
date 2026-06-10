@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-tacho-audit-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-tacho-audit-mcp"
+      ]
+    }
+  }
+}
