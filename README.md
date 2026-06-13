@@ -57,7 +57,7 @@ pip install meok-tacho-audit-mcp
 - **Fleet** — £499/mo (50+ trucks, audit-export)
 - **Earned Recognition** — £1,499/mo (DVSA ER data feed + SLA)
 
-[Subscribe Pro → £79/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j)
+[Subscribe Pro → £79/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t)
 
 ## Regulatory basis
 

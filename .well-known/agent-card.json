@@ -1,0 +1,202 @@
+{
+  "name": "Meok Tacho Audit Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-tacho-audit-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July 2026 cliff), EU 561/2006 retained, infringement triage, Public Inquiry brief generation. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_smart_tacho_2_readiness",
+      "name": "Check Smart Tacho 2 Readiness",
+      "description": "Check Smart Tacho 2 Readiness — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "analyze_drivers_hours",
+      "name": "Analyze Drivers Hours",
+      "description": "Analyze Drivers Hours — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "summarize_infringements",
+      "name": "Summarize Infringements",
+      "description": "Summarize Infringements — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "calculate_ocrs_band",
+      "name": "Calculate Ocrs Band",
+      "description": "Calculate Ocrs Band — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "forecast_ocrs_90_day",
+      "name": "Forecast Ocrs 90 Day",
+      "description": "Forecast Ocrs 90 Day — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_public_inquiry_brief",
+      "name": "Generate Public Inquiry Brief",
+      "description": "Generate Public Inquiry Brief — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_weekly_downloads",
+      "name": "Audit Weekly Downloads",
+      "description": "Audit Weekly Downloads — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_dvs_pss_3_star",
+      "name": "Check Dvs Pss 3 Star",
+      "description": "Check Dvs Pss 3 Star — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_drivers_cpc_expiry",
+      "name": "Check Drivers Cpc Expiry",
+      "description": "Check Drivers Cpc Expiry — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_dvsa_visit_pack",
+      "name": "Generate Dvsa Visit Pack",
+      "description": "Generate Dvsa Visit Pack — a tool of the meok-tacho-audit-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-tacho-audit-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
