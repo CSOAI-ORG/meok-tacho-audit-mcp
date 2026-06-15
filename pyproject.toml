@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-tacho-audit-mcp"
-version = "1.0.3"
+version = "1.0.4"
 description = "UK haulage tachograph audit + drivers' hours + DVSA OCRS Red prevention. Smart Tachograph 2 (July 2026 cliff), EU 561/2006 retained, infringement triage, Public Inquiry brief generation. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -28,3 +28,22 @@ meok-tacho-audit-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
