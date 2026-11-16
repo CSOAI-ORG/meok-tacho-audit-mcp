@@ -49,15 +49,11 @@ pip install meok-tacho-audit-mcp
 | `check_drivers_cpc_expiry` | 35h/5yr cycle tracking |
 | `generate_dvsa_visit_pack` | 24h-before-visit evidence checklist |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £29/mo
-- **Pro** — £79/mo (multi-driver)
-- **Fleet** — £499/mo (50+ trucks, audit-export)
-- **Earned Recognition** — £1,499/mo (DVSA ER data feed + SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £79/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
